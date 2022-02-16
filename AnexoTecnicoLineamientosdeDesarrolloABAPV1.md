@@ -40,7 +40,7 @@
     - [5.2.4 Declaración Field-symbols](#524-declaración-field-symbols)
     - [5.2.5 Declaración Constantes](#525-declaración-constantes)
     - [5.2.6 Rangos](#526-rangos)
- - [6. Ordenes de Transporte](#6-ordenes-de-transporte)
+
 
 
 # Objetivo
@@ -514,17 +514,3 @@ el diccionario de datos.
 - Las declaraciones de variables globales se debe realizar en el TOP. 
 - Declaraciones de variables locales se deben realizar en las líneas iniciales de la 
 funcionalidad. 
-
-# 6. Ordenes de Transporte
-
-Creación de OT con la nomenclatura
-
-
-| Orden de transporte | MO NNN: BBB - DDD - VXXX | MO- Módulo <br/>NNN- Iniciales del Nombre del desarrollador<br/>BBB: Número del Caso <br/>DDD: Descripción caso <br/>XXX: Consecutivo con la versión empezando en 001 |
-|---------------------|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
--	Comenzar con V01.
--	Aplica cuando se tenga más de una OT asociada al caso.
--	El transporte de órdenes a la ambiente calidad se debe realizar por **ordenes de transporte Copia** 
-
-    * Se debe identificar con 
